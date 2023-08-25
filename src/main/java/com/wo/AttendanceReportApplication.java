@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import com.wo.service.file.FilesStorageService;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class AttendanceReportApplication extends SpringBootServletInitializer implements CommandLineRunner {
 
 	@Resource
